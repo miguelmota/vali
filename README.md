@@ -1,0 +1,24 @@
+# Vali(dators)
+
+A collection of validators.
+
+[http://vali.moogs.io](http://vali.moogs.io)
+
+Available via [bower](http://bower.io/)
+```bash
+bower install vali
+```
+
+Available via [npm](https://www.npmjs.org/)
+
+```bash
+npm install vali
+```
+
+# Usage
+
+TODO
+
+## License
+
+Released under the MIT License.
