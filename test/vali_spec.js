@@ -61,4 +61,15 @@ describe('validate', function() {
             expect(vali.coord(-200.8049363)).toBeFalsy();
         });
     });
+
+    describe('validator', function() {
+        it('should add validator', function() {
+            vali.validator('alpha', function(str) {
+              return /[a-zA-Z]+/.test(str);
+            });
+
+            expect(vali.alpha('abc')).toBeTruthy();
+            expect(vali.alpha(3)).toBeFalsy();
+        });
+    });
 });
