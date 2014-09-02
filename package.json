@@ -4,7 +4,7 @@
   "description": "A collection of validators.",
   "main": "vali.js",
   "scripts": {
-    "test": "npm test"
+    "test": "jasmine-node test/"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,12 @@
   "bugs": {
     "url": "https://github.com/miguelmota/vali/issues"
   },
-  "homepage": "https://github.com/miguelmota/vali"
+  "homepage": "https://github.com/miguelmota/vali",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-jsdoc": "^0.5.7",
+    "jasmine-node": "^1.14.5",
+    "jsdoc": "^3.3.0-alpha9",
+    "jsdoc-oblivion": "0.0.1"
+  }
 }

@@ -2,9 +2,12 @@
 
 A collection of validators.
 
-[http://vali.moogs.io](http://vali.moogs.io)
+# Documentation
+
+*[http://vali.moogs.io](http://vali.moogs.io)*
 
 Available via [bower](http://bower.io/)
+
 ```bash
 bower install vali
 ```
@@ -15,10 +18,12 @@ Available via [npm](https://www.npmjs.org/)
 npm install vali
 ```
 
-# Usage
+# Test
 
-TODO
+```
+npm test
+```
 
-## License
+# License
 
 Released under the MIT License.
