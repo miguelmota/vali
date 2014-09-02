@@ -1,6 +1,6 @@
 {
   "name": "vali",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A collection of validators.",
   "main": "vali.js",
   "scripts": {
