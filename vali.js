@@ -127,12 +127,13 @@
   * @return {boolean} - if successfully added/updated
   *
   * @example
-  *  vali.validator('alpha', function(str) {
-  *    return /[a-zA-Z]+/.test(str);
-  *  });
+  * vali.validator('alpha', function(str) {
+  *    return /^[a-zA-Z]+$/.test(str);
+  * });
   *
-  *  console.log(vali.alpha('abc')); // true
-  *  console.log(vali.alpha(3)); // false
+  * console.log(vali.alpha('abc')); // true
+  * console.log(vali.alpha(3)); // false
+  * console.log(vali.alpha('adf453')); // false
   */
   function validator(name, fn) {
     if (!(typeof fn === 'function')) false;

@@ -65,11 +65,12 @@ describe('validate', function() {
     describe('validator', function() {
         it('should add validator', function() {
             vali.validator('alpha', function(str) {
-              return /[a-zA-Z]+/.test(str);
+              return /^[a-zA-Z]+$/.test(str);
             });
 
             expect(vali.alpha('abc')).toBeTruthy();
             expect(vali.alpha(3)).toBeFalsy();
+            expect(vali.alpha('adf453')).toBeFalsy();
         });
     });
 });
