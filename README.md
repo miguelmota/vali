@@ -6,6 +6,8 @@ A collection of validators.
 
 **[http://vali.moogs.io](http://vali.moogs.io)**
 
+# Install
+
 Available via [bower](http://bower.io/)
 
 ```bash
