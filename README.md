@@ -4,7 +4,7 @@ A collection of validators.
 
 # Documentation
 
-*[http://vali.moogs.io](http://vali.moogs.io)*
+**[http://vali.moogs.io](http://vali.moogs.io)**
 
 Available via [bower](http://bower.io/)
 
