@@ -22,9 +22,13 @@ npm install vali
 
 # Test
 
-```
+```bash
 npm test
 ```
+
+# Source
+
+[https://github.com/miguelmota/vali](https://github.com/miguelmota/vali)
 
 # License
 
