@@ -62,6 +62,14 @@ describe('validate', function() {
         });
     });
 
+    describe('ssn', function() {
+        it('should validate ssn', function() {
+            expect(vali.ssn('000-11-1111')).toBeFalsy();
+            expect(vali.ssn('457-55-5462')).toBeTruthy();
+            expect(vali.ssn('457555462')).toBeTruthy();
+        });
+    });
+
     describe('validator', function() {
         it('should add validator', function() {
             vali.validator('alpha', function(str) {

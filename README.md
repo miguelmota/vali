@@ -1,3 +1,7 @@
+# (Deprecated)
+
+**These methods will be moved to individual modules that stand on their own.**
+
 # Vali(dators)
 
 A collection of validators.
