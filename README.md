@@ -8,7 +8,7 @@ A collection of validators.
 
 # Documentation
 
-**[http://vali.moogs.io](http://vali.moogs.io)**
+**[https://lab.miguelmota.com/vali](https://lab.miguelmota.com/vali)**
 
 # Install
 
